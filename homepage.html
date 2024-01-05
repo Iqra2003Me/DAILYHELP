@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+       @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Tiro+Devanagari+Sanskrit&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Yanone+Kaffeesatz&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quattrocento&display=swap');
+    .col:hover{
+     transform: scale(1.05);
+     transition: .3s; transform: cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s;-webkit-transform: cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+</style>
+
+</head>
+<body>
+    <div style="background-image:url(pics/exm1.webp); width:100%; height:880px;background-repeat:no-repeat;background-size: cover; ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+             <h2><b style="font-family: 'Bebas Neue', cursive;">Dailyhelp</b> </h2>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="padding-left:1500px; font-size:20px; ">
+                  <a class="nav-link active" aria-current="page" href="homepage.html" style="font-family: 'Bebas Neue', cursive;"><b>Home</b> </a>
+                  <a class="nav-link" href="Services.html" style="font-family: 'Bebas Neue', cursive;  color: black;" ><b>services</b> </a>
+                  <a class="nav-link" href="contact us.html" style="font-family: 'Bebas Neue', cursive;  color: black;"><b> contact </b></a>
+                  <a class="nav-link " href="about us.html" style="font-family: 'Bebas Neue', cursive; color: black;"> <b> about</b></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+        <h1 style="padding-top:200px;color:black; font-family: 'Bebas Neue', cursive;  font-size:50px; "><b> Your'e Most Trusted <br> Therapists</b></h1>
+        <h3  style="padding-top:50px;color:black; font-family: 'Bebas Neue', cursive; letter-spacing:1px;  font-size:40px; " ><b> Asking For Help Is <br> Not An Embarrsment</b></h3>
+<div style=" padding-top:50px; ">
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"style="width:30%;height:50px; border-radius:50px; color:black; font-family: 'Bebas Neue', cursive; font-size:25px; "><b>Take Appointment</b> 
+ 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel"style=" padding-left:150px; font-family: 'Bebas Neue', cursive; font-size:25px; "><b>
+         Appoinment Form</b></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col">
+            <label for="validationDefault01" class="form-label"style="font-family: 'Bebas Neue', cursive; font-size: larger;">First name</label>
+            <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+          </div>
+          <div class="col">
+            <label for="validationDefault02" class="form-label"style="font-family: 'Bebas Neue', cursive; font-size: larger;">Last name</label>
+            <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefaultUsername" class="form-label"style="font-family: 'Bebas Neue', cursive; font-size: larger;">Email</label>
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2"style="font-family: 'Bebas Neue', cursive; font-size: larger;">@</span>
+              <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault03" class="form-label"style="font-family: 'Bebas Neue', cursive; font-size: larger;">City</label>
+            <input type="text" class="form-control" id="validationDefault03" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault04" class="form-label"style="font-family: 'Bebas Neue', cursive; font-size: larger;">State</label>
+            <select class="form-select" id="validationDefault04" required>
+              <option selected disabled value=""style="font-family: 'Bebas Neue', cursive; font-size: larger;">Choose</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault05" class="form-label"style="font-family: 'Bebas Neue', cursive; font-size: larger;">Zip</label>
+            <input type="text" class="form-control" id="validationDefault05" required>
+          </div>
+<br><br><br><br>
+          <select class="form-select" aria-label="Select Treatment" style="font-family: 'Bebas Neue', cursive; font-size: larger;" >
+            <option selected style="font-family: 'Bebas Neue', cursive; font-size: larger;"> Select Treatment</option>
+            <option value="1"style="font-family: 'Bebas Neue', cursive; ">disorders</option>
+            <option value="2"style="font-family: 'Bebas Neue', cursive; ">Phobias</option>
+            <option value="3"style="font-family: 'Bebas Neue', cursive; ">Others</option>
+          </select>
+<br><br>
+
+          <select class="form-select" aria-label="Select Treatment" style="font-family: 'Bebas Neue', cursive; font-size: larger;" >
+            <option selected style="font-family: 'Bebas Neue', cursive; "> Select Timings</option>
+            <option value="1"style="font-family: 'Bebas Neue', cursive; ">Morning Sessions</option>
+            <option value="2"style="font-family: 'Bebas Neue', cursive;">Afternoon Sessions</option>
+            <option value="3"style="font-family: 'Bebas Neue', cursive; ">Evening Sessions</option>
+            <option value="3"style="font-family: 'Bebas Neue', cursive; ">Night  Sessions</option>
+          </select>
+<br><br>
+
+
+<select class="form-select" aria-label="Select Treatment" style="font-family: 'Bebas Neue', cursive; font-size: larger;" >
+  <option selected style="font-family: 'Bebas Neue', cursive; "> Select Session Type</option>
+  <option value="1"style="font-family: 'Bebas Neue', cursive; ">Voice Sessions</option>
+  <option value="2"style="font-family: 'Bebas Neue', cursive;"> Video Sessions</option>
+  <option value="3"style="font-family: 'Bebas Neue', cursive; ">Face  Sessions</option>
+  <option value="3"style="font-family: 'Bebas Neue', cursive; ">Daily Sessions</option>
+  <option value="3"style="font-family: 'Bebas Neue', cursive; ">Weekly Sessions</option>
+</select>
+<br><br>
+
+
+<center>
+          <div class="col-12" style="padding-top:10px;">
+            <div class="form-check"style="font-family: 'Bebas Neue', cursive; font-size: larger;">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required style="font-family: 'Bebas Neue', cursive; font-size: larger;">
+              <label class="form-check-label" for="invalidCheck2" style="font-family: 'Bebas Neue', cursive; font-size: larger;">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          
+      <br>
+        </form></center>
+    
+      <div class="modal-footer">
+        <button class="btn btn-primary" type="submit" style=" color:black; font-family: 'Bebas Neue', cursive; font-size: larger;  "><b>
+               Submit form</b></button>
+      
+      </div>  </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container" style="padding-top:150px;">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem; box-shadow:2px 2px 2px 2px black;">
+            <div class="card-body">        <h6 class="card-subtitle mb-2 text-muted">24 Hour Service</h6>
+              <h5 class="card-title" style="font-family: 'Bebas Neue', cursive;font-size:30px; "> <b>Online Appoinment</b> 
+            </h5>
+      
+              <p class="card-text" style="font-family: 'Quattrocento', serif;"><b> Get ALl time support for emergency.We have introduced the principle of family medicine. </b></p>
+              <button type="button" class="btn btn-primary" style="width:50%;height:50px; border-radius:50px; color:black; font-family: 'Bebas Neue', cursive; "><b>Take Appointment</b> </button>
+            
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem; box-shadow:2px 2px 2px 2px black;">
+            <div class="card-body"><h6 class="card-subtitle mb-2 text-muted">Timing Schedule</h6>
+              <h5 class="card-title" style="font-family: 'Bebas Neue', cursive;font-size:30px; "> <b> Working Hours</b></h5>  
+            
+              <p class="card-text" style="font-family: 'Quattrocento', serif;"> <b> Check Your'e suitable Schedule from our Timings so you can come and vist us</b></p>
+              <button type="button" class="btn btn-primary" style="width:50%;height:50px; border-radius:50px; color:black; font-family: 'Bebas Neue', cursive; "><b>Check Timings</b> </button>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;  box-shadow:2px 2px 2px 2px black;">
+            <div class="card-body">              <h6 class="card-subtitle mb-2 text-muted">Emergency Cases</h6>
+              <h5 class="card-title"style="font-family: 'Bebas Neue', cursive;font-size:30px; " ><b> 1-800-700-6200</b></h5>
+
+              <p class="card-text" style="font-family: 'Quattrocento', serif;"><b>We have introduced the principle of family medicine.Get Conneted with us for any urgency .</b> </p>
+              <button type="button" class="btn btn-primary" style="width:50%;height:50px; border-radius:50px; color:black; font-family: 'Bebas Neue', cursive; "><b>Check Timings</b> </button>
+            
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<div style="padding-top:300px;" >
+<div class="d-flex align-items-center" style="padding-top:50px;">
+  <div class="flex-shrink-0">
+    <img src="pics/783379-mental-health-thinkstock-121016.jpg" alt="..." style="width:100%; height:400px; object-fit:cover;">
+  </div>
+  <div class="flex-grow-1 ms-3">
+    <h5 style="font-family: 'Bebas Neue', cursive;font-size:30px;text-decoration: underline double 4px rgb(46, 103, 235); " ><b>Paragraphy About Doctors Across 1500 Doctors</b> </h5>
+    <p  style="padding-top:10px;font-family: 'Quattrocento', serif; font-size:20px;" ><b> We Appoint 1500 Doctors Across the world so you can choose your'e comfort by checking the whole list of doctors and choose your'e suitable Therapist we provide Free Certified Retired and On-job Therapists Friendly-Envoirment and You can aLso submit your'e complains to us about anything we are always here for you (Your'e Not Alone) We immediately Solve your'e Problems and complains we are providing general pre- and post-operative care. monitoring and administering medication. assessing and planning treatment requirements. liaising daily with staff including other doctors, non-medical management staff and healthcare professionals. They diagnose, educate, and treat patients to ensure that they have the best possible care. </b></p>
+  </div>
+</div>
+   </div> 
+<h1 style="text-align:center; padding-top:70px; font-family: 'Bebas Neue', cursive;font-size:40px; text-decoration: underline double 4px rgb(46, 103, 235); "><b>Our Top Reviewed Therapists</b> </h1>
+  <div style="padding-top:50px;">
+    <div class="container">
+      <div class="row row-cols-4" >
+        <div class="col" ><div class="card" style="width: 16rem;">
+          <img src="pics/doc1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Sophia Stephan</b> 
+            </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b> Working with us from past 2 years and patients reviews about her makes her top on the list she also perform actions in a big private hospital</b> </p></p> 
+       <div class="media-icons" >
+              <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+              <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+              <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+          </div>
+          </div>
+        </div></div>
+        <div class="col"><div class="card" style="width: 16rem;">
+          <img src="pics/doc2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Maya Ali</b> 
+            </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"> <b> A certified Therapist By Goverment And a award holder therapist and also gives their time in a Goverment hospital patients feel Friendly-Envoirment with her </b></p></p> 
+            <div class="media-icons" >
+              <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+              <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+              <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+          </div>
+          </div>
+        </div></div>
+        <div class="col"><div class="card" style="width: 16rem;">
+          <img src="pics/doc3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Emma Weasley</b> 
+            </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b>A private platform holder and a certified therapist gives her time for our patients so we can help as much people we can with full concentration and gives them everything free</b> </p></p> 
+            <div class="media-icons" > <b>
+              <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+              <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+              <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a></b>
+          </div>
+          </div>
+        </div></div>
+        <div class="col"><div class="card" style="width: 16rem;">
+          <img src="pics/doc4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Jane damon</b> 
+            </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b>Specialist About OCD. PST. PHOBIOA'S. So All people can get their solutions by us she is a perfect therapist for the patients who survive from these issues</b> </p></p> 
+            <div class="media-icons" >
+              <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+              <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+              <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+          </div>
+          </div>
+        </div></div>
+      </div>
+     </div>
+     <div style="padding-top:50px;">
+      <div class="container">
+        <div class="row row-cols-4" >
+          <div class="col" ><div class="card" style="width: 16rem;">
+            <img src="pics/doc6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Ember Robert</b> 
+              </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b> She is a doctor in a goverment platform and gain experience of about 10 years in this  field she can easily handle any kind of mental health issue</b> </p></p> 
+              <div class="media-icons" >
+                <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+            </div>
+            </div>
+          </div></div>
+          <div class="col"><div class="card" style="width: 16rem;">
+            <img src="pics/doc5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Sara Hussain</b> 
+              </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"> <b> She's a retired therapist She performs her duty in this field for 30 years now she gives online sessions from home to patients</b></p></p> 
+              <div class="media-icons" >
+                <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+            </div>
+            </div>
+          </div></div>
+          <div class="col"><div class="card" style="width: 16rem;">
+            <img src="pics/doc7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Caroline Steve</b> 
+              </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"> <b>She's a working women and a private therapist she gives patients online sessions our many patients get recovered by her  </b></p></p> 
+              <div class="media-icons" >
+                <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+            </div>
+            </div>
+          </div></div>
+          <div class="col"><div class="card" style="width: 16rem;">
+            <img src="pics/doc8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Layla Barton</b> 
+              </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b>She owns her own law firm she's a lawyer and a therapist She also give private sessions and a face to face session in a month</b></p></p> 
+              <div class="media-icons" >
+                <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+            </div>
+            </div>
+          </div></div>
+        </div>
+       </div>
+       <div style="padding-top:50px;">
+        <div class="container">
+          <div class="row row-cols-4" >
+            <div class="col" ><div class="card" style="width: 16rem;">
+              <img src="pics/doc.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Raya Wrenley</b> 
+                </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b>He's our top rated male-therapist he provides his full attention and gives easily available medicines patients reviwed him as 10/10  </b></p></p> 
+                <div class="media-icons" >
+                  <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+              </div> 
+              </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 16rem;">
+              <img src="pics/dco10.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Elbert Stark</b> 
+                </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b>he is working on international level for making people better by their mental health heis also providing face to face sessions </b></p></p> 
+                <div class="media-icons" >
+                  <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+              </div>
+              </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 16rem;">
+              <img src="pics/doc11.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Fallcon Banner </b> 
+                </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b>He is one of the most high rated therapist For treating old trauma's people usually suffered from these problems for whole life </b></p></p> 
+                <div class="media-icons" >
+                  <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+              </div>
+              </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 16rem;">
+              <img src="pics/doc12.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"> <h1  style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b>Romanoff Rogers</b> 
+                </h1><p style="text-align: center;font-family: 'Quattrocento', serif;"><b>A Goverment Award-holder Therapist and running his own firm for people free treatment and giving his time to us he is one of best one</b></p></p> 
+                <div class="media-icons" >
+                  <a href="#"><i class="fab fa-facebook-f" style="padding-right: 10px; padding-left:70px;"></i></a>
+                  <a href="#"><i class="fab fa-instagram" style="padding-right: 10px; ;"></i></a>
+                  <a href="#"><i class="fab fa-twitter" style="padding-right: 10px;"></i></a>
+              </div>
+              </div>
+            </div></div>
+          </div>
+         </div>
+  <h1 style="text-align:center; padding-top:70px; font-family: 'Bebas Neue', cursive;font-size:40px;  text-decoration: underline double 4px rgb(46, 103, 235);"><b>Our Patients Reviews About Us</b> </h1>
+ <div class="container" style="padding-top:40px;">
+  <div class="row">
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai1.webp" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b> Emma Evelyn</b>
+            </h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; "><b>I've My Own Resturant But i've OCD from 4 years after my critical divorce i've Suffered from emotional trauma i ve also have pistanthrophobia and it dosen't help me anymore so approach Dailyhelp And It Gives diffrent Changes in my life</b> </p>
+           
+          </div>
+        </div>
+      </div>
+    </div></div>
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai2.jpg" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b> Olivia Ava</b> </h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; "><b> i'm a Photographer i often see diffrent stories around me and my depression not helps me in my work but i find Dailyhelp on google They Help Me in every Possible way they can</b></p>
+         
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+
+<div class="container" style="padding-top:30px;">
+  <div class="row">
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai3.webp" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;" > <b>Sophia Charlotte</b> </h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; "> <b> I run my own software house i've childhood trauma and insomnia i can't focus on my work and it goes on loss but after Reaching Dailyhelp They have the most  Friendly-Envoirment and best therapists and the medicines they gave us easily available in stores</b></p>
+          
+          </div>
+        </div>
+      </div>
+    </div></div>
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai4.jpg" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"> <b>
+              Elena Willam</b> </h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; " > <b> I'm A Working Women I Suffered From Depression For A long Time I can't Relax Myself I also Suffered From Insomnia but Dailyhelp Gives Me Best Therapist Now I'M better from before</b></p>
+         
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+
+<div class="container" style="padding-top:30px;">
+  <div class="row">
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai5.jpg" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"> 
+              <b> Liam Gilbert</b> </h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; " > <b> I'm a MBA Student I can't Focus On My Studies I Found Dailyhelp By google And from that day i start The Sessions And Now I'm Feeling Much Better </b></p>
+       
+          </div>
+        </div>
+      </div>
+    </div></div>
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai6.webp" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b> James Salvatore</b> </h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; " > <b> Dailyhelp gives free treatments to all their patients its a worldwide platform for needy peoples those who need help but can't afford </b></p>
+         
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</div>
+
+<div class="container" style="padding-top:30px;">
+  <div class="row">
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai7.jpg" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"><b> Tyler Robert </b></h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; " ><b> I'm A Proffeser I've Suffered From emotional trauma and because of that my emotional intelligence damage alot dailyhelp gives me help i searched for every place</b></p>
+        
+          </div>
+        </div>
+      </div>
+    </div></div>
+    <div class="col-6"><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="pics/pai8.jpg" class="img-fluid rounded-start" alt="..." style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"style="font-family: 'Bebas Neue', cursive; font-size:30px; text-align:center ;"> <b> Stephen George</b> </h5>
+            <p class="card-text" style="font-family: 'Quattrocento', serif; " > <b> I Always Feeled Ashamed and afraid about my mental health issues i often get panic attacks in public places this place helps me alot in improving my mental health</b> </p>
+           
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</div><br><br>
+<div style="background-image:url(pics/newsletter.jpg); width: 100%; height:800px; background-size: cover; padding-top:150px;">
+<center> <h1 style="font-size:50px;font-family: 'Bebas Neue', cursive; width: 90%;height: 100px; border: 2px ; background-color: white; opacity: 80%; border-radius: 20px 20px 20px 20px;padding-top: 10px; text-align: center;"><b> SUBSCRIBE TO OUR NEWSLETTER TO GET THE LATEST NEW & TRENDS</b>
+  </h1></center> <br> <br> <br>
+  <br><b><br><br><br></b>
+<br><br><br><br><br><br>
+<form class="d-flex"> 
+               
+  <input class="form-control me-2" type="search" placeholder="YOUR'E NAME " aria-label="Search" style="width: 30%;height: 50px; opacity:80%; border: 2px solid black ; border-radius: 20px 20px 20px 20px;font-family: 'Bebas Neue', cursive;">
+<input class="form-control me-2" type="search" placeholder="YOUR'E EMAIL" aria-label="Search" style="font-family: 'Bebas Neue', cursive; width: 40%;height: 50px;opacity:80%; border: 2px solid black ; ; border-radius: 20px 20px 20px 20px;">
+  <button class="btn btn-dark" type="submit" style="width: 17%; font-size:20px; border-radius: 20px 20px 20px 20px;font-family: 'Bebas Neue', cursive;"><b>Subscribe</b> </button></form> <br><br><br>
+
+</div>
+<div style="padding-top:60px;">
+<footer class="text-center text-white" style="background-color: black;">
+ 
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-primary m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="primary"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-primary m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="primary"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-primary m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="primary"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-primary m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="primary"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-primary m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="primary"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-primary m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="primary"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);font-family: 'Bebas Neue', cursive;">
+    © 2021 Copyright:
+    <a class="text-light" href="homepage.html"style="font-family: 'Bebas Neue', cursive;">Dailyhelp.com</a>
+  </div>
+  <!-- Copyright -->
+</footer></div>
+</body>
+</html>
